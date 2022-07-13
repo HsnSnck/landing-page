@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 45px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 45px;   
+    margin-right: 45px;
+}
+
+a{
+    color: #f9faf8;
+    text-decoration: none;
+
+}
+
