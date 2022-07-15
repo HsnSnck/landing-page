@@ -1,4 +1,4 @@
-body{
+.body{
     display: flex;
     flex-direction: column;
     font-family: sans-serif,'Courier New', Courier, monospace;
@@ -137,4 +137,30 @@ a{
     font-size: 20px;
     padding-left: 150px;
     font-weight: bold;
+}
+
+.call-to-action-container{
+    background-color: #3a6fb8;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 50px 70px ;
+  
+   margin:70px 150px;
+   border-radius: 25px;
+}
+
+.action-title{
+    color:#e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+}
+.action-text{
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.btn-quote{
+    border: #e5e7eb 1px solid;
+    border-radius: 10px;
 }
