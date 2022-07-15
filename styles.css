@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif,'Courier New', Courier, monospace;
 }
 
 .top {
@@ -93,6 +93,7 @@ a{
     justify-content: center;
     gap:50px;
     text-align: center;
+    padding-bottom: 50px;
 }
 .img-info{
     width: 100px;
@@ -112,4 +113,28 @@ a{
     font-weight: bolder;
     color: #1F2937;
     margin: 50px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #e5e7eb;
+    padding: 50px;
+    align-items: center;
+    
+    
+}
+
+.quote{
+    font-size: 36px;
+    max-width: 450px;
+    font-weight: 100;
+    
+}
+
+.quote-origin{
+    font-size: 20px;
+    padding-left: 150px;
+    font-weight: bold;
 }
